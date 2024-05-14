@@ -1,0 +1,204 @@
+/* Definición de colores cálidos */
+.bg-warm {
+  background-color: #f4942d; /* Color de fondo cálido */
+}
+
+.text-warm {
+  color: #f4942d; /* Color de texto cálido */
+}
+
+/* Estilos adicionales */
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Estilos para la tienda online */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+nav {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+nav a.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section {
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #f4942d;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #f4942d;
+  border-color: #f4942d;
+}
+
+.btn-primary:hover {
+  background-color: #f4942d;
+  border-color: #f4942d;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #f4942d;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #f4942d;
+  border-bottom: 1px solid #dee2e6; 
+}
+header h1 {
+  margin-bottom: 0;
+}
+nav {
+  background-color: #f4942d; 
+}
+nav a.navbar-brand, .nav-link {
+  color: #ffffff !important;
+}
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+section {
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+}
+footer {
+  background-color: #f4942d;
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btn-primary {
+  background-color: #f4942d;
+  border-color: #f4942d;
+}
+.btn-primary:hover {
+  background-color: #f4942d;
+  border-color: #f4942d;
+}
+
+
+
+/* Estilos para la sección de productos */
+#productos {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 40px 0; /* Espaciado interno */
+}
+
+/* Estilos para las tarjetas de productos */
+.card {
+  border: none; /* Sin borde */
+  transition: transform 0.3s; /* Transición suave */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Levantar la tarjeta al pasar el mouse */
+}
+
+.card-img-top {
+  border-top-left-radius: 10px; /* Bordes redondeados arriba a la izquierda */
+  border-top-right-radius: 10px; /* Bordes redondeados arriba a la derecha */
+}
+
+.card-title {
+  font-size: 20px; /* Tamaño del título */
+  color: #333; /* Color del texto */
+}
+
+.card-text {
+  color: #666; /* Color del texto secundario */
+}
+
+.card-footer {
+  background-color: #fff; /* Fondo del pie de la tarjeta */
+}
+
+/* Estilos para el botón "Detalles" */
+.card-footer .btn {
+  background-color: #f4942d; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border:after; /* Sin borde */
+  transition:background-color 0.3s; /* Transición suave */
+}
+
+.card-footer .btn:hover {
+  background-color: #f4942d; /* Cambio de color al pasar el mouse */
+}
